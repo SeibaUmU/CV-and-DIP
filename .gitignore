@@ -14,3 +14,7 @@ __pycache__/
 # Chặn các file kết quả huấn luyện không cần thiết (giữ lại code, chặn log nặng)
 runs/
 *.log
+
+*.mp4
+*.avi
+*.mov
