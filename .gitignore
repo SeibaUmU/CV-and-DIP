@@ -1,0 +1,16 @@
+# Chặn môi trường ảo (venv) - Rất quan trọng vì nó cực kỳ nặng
+venv/
+ENV/
+.env/
+
+# Chặn thư mục cấu hình cá nhân của VS Code
+.vscode/
+
+# Chặn các file rác sinh ra khi chạy Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Chặn các file kết quả huấn luyện không cần thiết (giữ lại code, chặn log nặng)
+runs/
+*.log
