@@ -1,0 +1,6 @@
+path: D:\TaiLieu\XLA\XLA_TH\YOLO\dataset
+train: train/
+val: val/
+
+nc: 3
+names: ['Stop','Re Phai','50']
