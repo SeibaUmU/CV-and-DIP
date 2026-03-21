@@ -3,10 +3,10 @@ import cv2
 from ultralytics import YOLO
 
 # Load the YOLO model
-model = YOLO(r"D:\TaiLieu\XLA\XLA_TH\YOLO\runs\detect\train\weights\best.pt")
+model = YOLO(r"D:\TaiLieu\XLA\XLA_TH\CV-and-DIP\TH\Buoi1\YOLO\runs\detect\train\weights\best.pt")
 
 # Open the video file
-video_path = r"D:\TaiLieu\XLA\XLA_TH\YOLO\test.mp4"
+video_path = r"D:\TaiLieu\XLA\XLA_TH\CV-and-DIP\TH\Buoi1\YOLO\test.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Loop through the video frames
