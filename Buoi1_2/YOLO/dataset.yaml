@@ -1,0 +1,6 @@
+path: D:/TaiLieu/XLA/XLA_TH/CV-and-DIP/Buoi1_2/YOLO
+train: dataset/train/
+val: dataset/val/
+
+nc: 3
+names: ['50-SIGN', 'RE PHAI', 'STOP']

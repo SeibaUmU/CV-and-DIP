@@ -1,6 +1,0 @@
-path: D:\TaiLieu\XLA\XLA_TH\CV-and-DIP\TH\Buoi1\YOLO\dataset
-train: train/
-val: val/
-
-nc: 3
-names: ['Stop','Re Phai','50']
